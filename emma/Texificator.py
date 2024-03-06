@@ -28,11 +28,12 @@ class Texificator:
         self._model.to(device)
         self._model.eval()
         self._params = dict(eos_token_id=self._tokenizer.eos_token_id,
-          max_length=MAX_LENGTH,
-          num_beams=7,
-          do_sample=True,
-          top_k=100,
-          early_stopping=True
+            max_length=128,
+            num_beams=7,
+            do_sample=True,
+            top_k=100,
+            early_stopping=True,
+            repetition_penalty=2.5, length_penalty=0.5,
         )
 
     def set_generation_params(self, params: Dict[str, Any]):
