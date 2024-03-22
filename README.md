@@ -6,3 +6,12 @@ Emma - это библиотека для обработки образоват�
 
 ---
 [![how-to](https://img.shields.io/badge/how--to-use-blue.svg)](demo/texification.ipynb)
+
+## Установка
+
+Для установки в соответствующем окружении Python выполните следующие команды:
+
+```sh
+git clone https://github.com/basic-go-ahead/emma -b st1
+pip install -q -r ./emma/requirements.txt
+```
