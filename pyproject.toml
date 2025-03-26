@@ -4,7 +4,7 @@ requires-python = ">= 3.10"
 dynamic = ["version"]
 dependencies = [
     "torch==1.13.1+cu117",
-    "transformers>=4.20.1",
+    "transformers==4.49.0",
     "transliterate==1.10.2",
     "sentence-transformers==2.7.0",
     "numpy<2.0.0",
